@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#settings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#color-input {
+  height: 50px;
+  width: 50px;
+}
+
+#square-container {
+  display: grid;
+  -moz-column-gap: 0;
+       column-gap: 0;
+  row-gap: 0;
+  grid-template-columns: repeat(16, 20px);
+  grid-template-rows: repeat(16, 20px);
+}
+
+.square {
+  background-color: white;
+}
+
+.painted {
+  background-color: black;
+}/*# sourceMappingURL=styles.css.map */
